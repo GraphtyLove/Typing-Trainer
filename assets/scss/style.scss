@@ -1,27 +1,70 @@
 body{
     margin: 0;
     background: #282a36;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Karla', sans-serif;
 }
+
+header{
+    height: 10vh;
+    display: flex;
+    margin: 0 20px;
+    justify-content: space-around;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    margin: 0 20px;
+    justify-content: center;
+    // Start button
+    button{
+        font-family: 'Karla', sans-serif;
+        font-size: 20px;
+        height: 60px;
+        border: 2px solid #bd93f9;
+        border-radius: 50%;
+        padding: 10px 10px;
+        background-color: #6272a4;
+        color: #f8f8f2;
+        cursor: pointer;
+        margin-bottom: 10px;
+        p{
+            margin: 0;
+        }
+    }
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // Start button
+    button{
+        font-family: 'Karla', sans-serif;
+        font-size: 70px;
+        border: 5px solid #bd93f9;
+        border-radius: 40px;
+        padding: 10px 70px;
+        background-color: #6272a4;
+        color: #f8f8f2;
+        cursor: pointer;
+        p{
+            margin: 0;
+        }
+    }
+}
+
 
 // Score:
 #score{
     color: #50fa7b;
-    position: absolute;
-    top: 10px;
-    left: 50px;
     font-size: 30px;
 }
 
 #errors{
     color: #ff5555;
-    position: absolute;
-    top: 10px;
-    right: 50px;
     font-size: 30px;
 }
 

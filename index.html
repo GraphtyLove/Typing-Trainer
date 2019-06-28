@@ -9,8 +9,23 @@
     <title>Typing Practice</title>
 </head>
 <body>
-    <header><p id="score">Score : 0</p></header>
-    <header><p id="errors">Errors : 0</p></header>
-    <script src="assets/js/script.js"></script>
+    <header id="header">
+        <p id="score"> Score : 0 </p>
+        <p id="errors">Errors : 0</p>
+    </header>
+    <main id="main-div">
+        <section id="start">
+            <button onclick="play()">
+                <p>Start</p>
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        <button onclick="stop()">
+            <p>STOP</p>
+        </button>
+    </footer>
+    <script id='last-div' src='assets/js/script.js'></script>
 </body>
 </html>
