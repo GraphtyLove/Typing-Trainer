@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background: url('../img/bg.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+}
+
+// Score:
+header{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 30px;
+}
+
+// Word to type style:
+.word-to-type{
+    color: rgba(156, 156, 156, 0.842);
+    font-size: 100px;
+    text-align: center;
+}
