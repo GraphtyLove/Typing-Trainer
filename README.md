@@ -16,11 +16,16 @@ Random words are display and you have to type them on your keyboard to make poin
 * count the number of misstyping
 * button start and stop
 * each game have a maximum duration (a fix value at the moment)
+* Countdown
+* Counter of the number of word per minute you have
 
 
 ## Feature to developp
 
 * Use an API to generate the word (larousse?)
-* add a countdown
-* add the number of word per minute you have (or charactere per minute)
-* animate all this flat design!
+* Animate all this flat design!
+
+
+## Bug to fix:
+
+* Bad colorisation of letter (one by one) when restarting the game without reloading the page
