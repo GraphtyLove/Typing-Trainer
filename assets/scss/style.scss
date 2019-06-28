@@ -2,25 +2,33 @@ body{
     margin: 0;
     background: #282a36;
     font-family: 'Karla', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
 }
 
 header{
-    height: 10vh;
+    max-height: 200px;
     display: flex;
-    margin: 0 20px;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+.header-1{
+    display: flex;
 }
 
 footer{
-    height: 10vh;
+    height: 100px;
     display: flex;
-    margin: 0 20px;
     justify-content: center;
-    // Start button
+
+    // STOP button
     button{
         font-family: 'Karla', sans-serif;
         font-size: 20px;
-        height: 60px;
+        height: 70px;
         border: 2px solid #bd93f9;
         border-radius: 50%;
         padding: 10px 10px;
@@ -28,6 +36,8 @@ footer{
         color: #f8f8f2;
         cursor: pointer;
         margin-bottom: 10px;
+        box-shadow: 2px 2px 1px 1px #000;
+
         p{
             margin: 0;
         }
@@ -35,11 +45,12 @@ footer{
 }
 
 main{
-    height: 80vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     // Start button
     button{
         font-family: 'Karla', sans-serif;
@@ -50,6 +61,7 @@ main{
         background-color: #6272a4;
         color: #f8f8f2;
         cursor: pointer;
+        box-shadow: 0px 0px 15px 5px #6272a4;
         p{
             margin: 0;
         }
@@ -61,11 +73,37 @@ main{
 #score{
     color: #50fa7b;
     font-size: 30px;
+    min-width: 33.3%;
+    text-align: center;
+    margin: 0;
 }
 
+// Score:
+#cpm{
+    color: #8be9fd;
+    font-size: 30px;
+    min-width: 33.3%;
+    text-align: center;
+    margin: 0;
+}
+
+// Countdown:
+#countdown{
+    color: #f8f8f2;
+    font-size: 30px;
+    min-width: 33.3%;
+    text-align: center;
+    margin: 0;
+}
+
+
+// Errors:
 #errors{
     color: #ff5555;
     font-size: 30px;
+    min-width: 33.3%;
+    text-align: center;
+    margin: 0;
 }
 
 // Word to type style:
