@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: url('../img/bg.jpg');
+    background: #282a36;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -9,17 +9,25 @@ body{
 }
 
 // Score:
-header{
-    color: #fff;
+#score{
+    color: #50fa7b;
     position: absolute;
     top: 10px;
     left: 50px;
     font-size: 30px;
 }
 
+#errors{
+    color: #ff5555;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 30px;
+}
+
 // Word to type style:
-.word-to-type{
-    color: rgba(156, 156, 156, 0.842);
+#word-to-type{
+    color: #6272a4;
     font-size: 100px;
     text-align: center;
 }
