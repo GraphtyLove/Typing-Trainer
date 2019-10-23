@@ -6,7 +6,7 @@ A JS game to practice your typing skills.<br/>
 Random words are display and you have to type them on your keyboard to make points.
 
 ## Screenshot
-! [screeshot of the site](screenshot-site.png)
+![screeshot of the site](screenshot-site.png)
 
 ## Features
 
